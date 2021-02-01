@@ -65,10 +65,10 @@ def ok():
 		lst = json.loads(data)
 
 		if  len(labels) == 0:
-			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nData frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
+			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nDate frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
 			my_label.pack(pady=(100,0), side=TOP, anchor=NW)
 		else:
-			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nData frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
+			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nDate frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
 			my_label.pack(pady=24, side=TOP, anchor=NW)
 	
 	#if APPLICATIONS list
@@ -80,10 +80,10 @@ def ok():
 		lst = json.loads(data)
 
 		if  len(labels) == 0:
-			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nConsumed quantity: " + str(mthds.consumed_quantity(lst)) + "\nData frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
+			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nConsumed quantity: " + str(mthds.consumed_quantity(lst)) + "\nDate frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
 			my_label.pack(pady=(100,0), side=TOP, anchor=NW)
 		else:
-			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nConsumed quantity: " + str(mthds.consumed_quantity(lst)) + "\nData frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
+			my_label = Label(text=var + "\n\nTotal cost: " + str(mthds.total_cost(lst)) + "\nAverage cost: " + str(mthds.average_cost(lst)) + "\nConsumed quantity: " + str(mthds.consumed_quantity(lst)) + "\nDate frame: " + str(mthds.time_frame(lst)[0]) + " - " + str(mthds.time_frame(lst)[1]) + "\nTop location: " + mthds.location_counter(lst))
 			my_label.pack(pady=24, side=TOP, anchor=NW)
 	
 	#if TOP TENS list
