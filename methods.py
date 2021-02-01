@@ -38,7 +38,7 @@ class methodsss:
 		result = sum(converted_to_f)
 		return result
 	
-	#computer total consumed quantity
+	#compute total consumed quantity
 	def consumed_quantity(some_list):
 		new_list = [i["ConsumedQuantity"] for i in some_list]
 		converted_to_f = [float(j) for j in new_list]
