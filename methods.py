@@ -37,6 +37,13 @@ class methodsss:
 		converted_to_f = [float(j) for j in new_list]
 		result = sum(converted_to_f)
 		return result
+	
+	#computer total consumed quantity
+	def consumed_quantity(some_list):
+		new_list = [i["ConsumedQuantity"] for i in some_list]
+		converted_to_f = [float(j) for j in new_list]
+		result = sum(converted_to_f)
+		return result
 
 	#compute average cost of a list entity
 	def average_cost(some_list):
