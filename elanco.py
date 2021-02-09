@@ -59,7 +59,7 @@ def ok():
 	#if RESOURCES list
 	if latest_op_one != "Resources":
 		var = latest_op_one
-		urrl = "https://engineering-task.elancoapps.com/api/resources/" + var
+		urrl = "INSERT URL" + var
 		response_url = requests.get(urrl)
 		data = response_url.text
 		lst = json.loads(data)
@@ -74,7 +74,7 @@ def ok():
 	#if APPLICATIONS list
 	elif latest_op_two != "Applications":
 		var = latest_op_two
-		urrl = "https://engineering-task.elancoapps.com/api/applications/" + var
+		urrl = "INSERT URL" + var
 		response_url = requests.get(urrl)
 		data = response_url.text
 		lst = json.loads(data)
