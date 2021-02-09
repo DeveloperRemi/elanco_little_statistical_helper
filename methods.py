@@ -15,7 +15,7 @@ class methodsss:
 
 	#send request of RESOURCES, process and sort alphabetically
 	def send_request_res():
-		url = "https://engineering-task.elancoapps.com/api/resources"
+		url = "INSERT URL"
 		response_url = requests.get(url)
 		convert_to_text = response_url.text
 		convert_to_list = json.loads(convert_to_text)
@@ -24,7 +24,7 @@ class methodsss:
 
 	#send request of APPLICATIONS, process and sort alphabetically
 	def send_request_apps():
-		url = "https://engineering-task.elancoapps.com/api/applications"
+		url = "INSERT URL"
 		response_url = requests.get(url)
 		convert_to_text = response_url.text
 		convert_to_list = json.loads(convert_to_text)
@@ -72,7 +72,7 @@ class methodsss:
 		top_ten_cost = {}
 		dictlist = []
 		for i in some_list:
-			url = "https://engineering-task.elancoapps.com/api/applications/" + i
+			url = "INSERT URL" + i
 			response_url = requests.get(url)
 			convert_to_text = response_url.text
 			convert_to_list = json.loads(convert_to_text)
@@ -141,7 +141,7 @@ class methodsss:
 		top_ten_cost = {}
 		dictlist = []
 		for i in some_list:
-			url = "https://engineering-task.elancoapps.com/api/resources/" + i
+			url = "INSERT URL" + i
 			response_url = requests.get(url)
 			convert_to_text = response_url.text
 			convert_to_list = json.loads(convert_to_text)
